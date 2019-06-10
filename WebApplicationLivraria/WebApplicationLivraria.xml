@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplicationLivraria</name>
+    </assembly>
+    <members>
+        <member name="T:WebApplicationLivraria.Controllers.AutoresApiController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.AutoresApiController.AddAutores(WebApplicationLivraria.Models.Livro)">
+            <summary>
+            Adicionar autor
+            </summary>
+            <remarks>Adiciona um autor ao sistema</remarks>
+            <param name="autor">Adiciona um autor no sistema</param>
+            <response code="201">Autor Incluido</response>
+            <response code="400">Entrada inválida, objeto inválido</response>
+            <response code="409">Um autor já existente com o código informado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.AutoresApiController.DeleteAutor(System.String)">
+            <summary>
+            Deletar autor por id
+            </summary>
+            <param name="idAutor">idAutor a ser excluido</param>
+            <response code="200">Autor excluido com sucesso</response>
+            <response code="400">Autor a ser excluido inválido</response>
+            <response code="404">Autor não encontrado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.AutoresApiController.UpdateAutor(WebApplicationLivraria.Models.Autor)">
+            <summary>
+            Atualiza um autor
+            </summary>
+            <param name="body">Autor que precisa ser atualizado</param>
+            <response code="400">Autor inválido</response>
+            <response code="404">autor não encontrado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.AutoresApiController.V1AutoresGet(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista de Autores
+            </summary>
+            <remarks>Esse método retorna uma lista de autores</remarks>
+            <param name="pular">número de registros para pular para paginação</param>
+            <param name="limit">número máximo de registros para retornar</param>
+            <response code="200">Array de autores</response>
+            <response code="400">Falha nos parâmtros de entrada</response>
+        </member>
+        <member name="T:WebApplicationLivraria.Controllers.CategoriasApiController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.CategoriasApiController.AddCategoria(WebApplicationLivraria.Models.Categoria)">
+            <summary>
+            Adicionar categoria
+            </summary>
+            <remarks>Adiciona uma categoria ao sistema</remarks>
+            <param name="categoria">Adiciona uma categoria no sistema</param>
+            <response code="201">Categoria Incluida</response>
+            <response code="400">Entrada inválida, objeto inválido</response>
+            <response code="409">Uma categoria já existente com o código informado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.CategoriasApiController.DeleteCategoria(System.String)">
+            <summary>
+            Deletar uma categoria
+            </summary>
+            <param name="idCategoria">idCategoria a ser excluido</param>
+            <response code="200">Categoria excluido com sucesso</response>
+            <response code="400">Categoria a ser excluido inválido</response>
+            <response code="404">Categoria não encontrado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.CategoriasApiController.UpdateCategoria(WebApplicationLivraria.Models.Categoria)">
+            <summary>
+            Atualiza uma categoria
+            </summary>
+            <param name="body">Categoria que precisa ser atualizado</param>
+            <response code="400">Categoria inválido</response>
+            <response code="404">Categoria não encontrado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.CategoriasApiController.V1CategoriaGet(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista de Categorias
+            </summary>
+            <remarks>Esse método retorna uma lista de categorias</remarks>
+            <param name="pular">número de registros para pular para paginação</param>
+            <param name="limit">número máximo de registros para retornar</param>
+            <response code="200">Array de categorias</response>
+            <response code="400">Falha nos parâmtros de entrada</response>
+        </member>
+        <member name="T:WebApplicationLivraria.Controllers.EditorasApiController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.EditorasApiController.AddEditora(WebApplicationLivraria.Models.Editora)">
+            <summary>
+            Adicionar editoras
+            </summary>
+            <remarks>Adiciona uma editora ao sistema</remarks>
+            <param name="editora">Adiciona uma editora ao sistema</param>
+            <response code="201">Editora Incluido</response>
+            <response code="400">Entrada inválida, objeto inválido</response>
+            <response code="409">Um autor já existente com o código informado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.EditorasApiController.DeleteEditoras(System.String)">
+            <summary>
+            Deletar editora por id
+            </summary>
+            <param name="idEditora">idEditora a ser excluido</param>
+            <response code="200">Editora excluido com sucesso</response>
+            <response code="400">Editora a ser excluido inválido</response>
+            <response code="404">Editora não encontrado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.EditorasApiController.UpdateEditora(WebApplicationLivraria.Models.Editora)">
+            <summary>
+            Atualiza uma editora
+            </summary>
+            <param name="body">Editora que precisa ser atualizado</param>
+            <response code="400">Editora inválido</response>
+            <response code="404">editora não encontrado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.EditorasApiController.V1EditorasGet(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista de Editoras
+            </summary>
+            <remarks>Esse método retorna uma lista de editora</remarks>
+            <param name="pular">número de registros para pular para paginação</param>
+            <param name="limit">número máximo de registros para retornar</param>
+            <response code="200">Array de editoras</response>
+            <response code="400">Falha nos parâmtros de entrada</response>
+        </member>
+        <member name="T:WebApplicationLivraria.Controllers.LivrosApiController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.LivrosApiController.AddLivros(WebApplicationLivraria.Models.Livro)">
+            <summary>
+            Adicionar livros
+            </summary>
+            <remarks>Adiciona um item ao sistema</remarks>
+            <param name="livro">Adiciona um livro no sistema</param>
+            <response code="201">Livro Incluido</response>
+            <response code="400">Entrada inválida, objeto inválido</response>
+            <response code="409">Um livro já existente com esse ISBN</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.LivrosApiController.DeleteOrder(System.String)">
+            <summary>
+            Deletar livros por ISBN
+            </summary>
+            <param name="ISBN">ISBN do livro para ser excluido</param>
+            <response code="200">Livro excluido com sucesso</response>
+            <response code="400">ISBN a ser excluido inválido</response>
+            <response code="404">ISBN não encontrado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.LivrosApiController.UpdateLivro(WebApplicationLivraria.Models.Livro)">
+            <summary>
+            Atualiza um livro
+            </summary>
+            <param name="body">Livro que precisa ser atualizado</param>
+            <response code="400">ISBN inválido</response>
+            <response code="404">livro não encontrado</response>
+        </member>
+        <member name="M:WebApplicationLivraria.Controllers.LivrosApiController.V1LivrosGet(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista de livros
+            </summary>
+            <remarks>Esse método retorna uma lista de livros</remarks>
+            <param name="pular">número de registros para pular para paginação</param>
+            <param name="limit">número máximo de registros para retornar</param>
+            <response code="200">Array de livros</response>
+            <response code="400">Falha nos parâmtros de entrada</response>
+        </member>
+        <member name="T:WebApplicationLivraria.Models.Autor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Autor.IdAutor">
+            <summary>
+            Gets or Sets IdAutor
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Autor.Name">
+            <summary>
+            Gets or Sets Name
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Autor.Descricao">
+            <summary>
+            Gets or Sets Descricao
+            </summary>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Autor.ToString">
+            <summary>
+            Returns the string presentation of the object
+            </summary>
+            <returns>String presentation of the object</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Autor.ToJson">
+            <summary>
+            Returns the JSON string presentation of the object
+            </summary>
+            <returns>JSON string presentation of the object</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Autor.Equals(System.Object)">
+            <summary>
+            Returns true if objects are equal
+            </summary>
+            <param name="obj">Object to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Autor.Equals(WebApplicationLivraria.Models.Autor)">
+            <summary>
+            Returns true if Autor instances are equal
+            </summary>
+            <param name="other">Instance of Autor to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Autor.GetHashCode">
+            <summary>
+            Gets the hash code
+            </summary>
+            <returns>Hash code</returns>
+        </member>
+        <member name="T:WebApplicationLivraria.Models.Categoria">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Categoria.IdCategoria">
+            <summary>
+            Gets or Sets IdCategoria
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Categoria.Descricao">
+            <summary>
+            Gets or Sets Descricao
+            </summary>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Categoria.ToString">
+            <summary>
+            Returns the string presentation of the object
+            </summary>
+            <returns>String presentation of the object</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Categoria.ToJson">
+            <summary>
+            Returns the JSON string presentation of the object
+            </summary>
+            <returns>JSON string presentation of the object</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Categoria.Equals(System.Object)">
+            <summary>
+            Returns true if objects are equal
+            </summary>
+            <param name="obj">Object to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Categoria.Equals(WebApplicationLivraria.Models.Categoria)">
+            <summary>
+            Returns true if Categoria instances are equal
+            </summary>
+            <param name="other">Instance of Categoria to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Categoria.GetHashCode">
+            <summary>
+            Gets the hash code
+            </summary>
+            <returns>Hash code</returns>
+        </member>
+        <member name="T:WebApplicationLivraria.Models.Editora">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Editora.IdCategoria">
+            <summary>
+            Gets or Sets IdCategoria
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Editora.Descricao">
+            <summary>
+            Gets or Sets Descricao
+            </summary>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Editora.ToString">
+            <summary>
+            Returns the string presentation of the object
+            </summary>
+            <returns>String presentation of the object</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Editora.ToJson">
+            <summary>
+            Returns the JSON string presentation of the object
+            </summary>
+            <returns>JSON string presentation of the object</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Editora.Equals(System.Object)">
+            <summary>
+            Returns true if objects are equal
+            </summary>
+            <param name="obj">Object to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Editora.Equals(WebApplicationLivraria.Models.Editora)">
+            <summary>
+            Returns true if Editora instances are equal
+            </summary>
+            <param name="other">Instance of Editora to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Editora.GetHashCode">
+            <summary>
+            Gets the hash code
+            </summary>
+            <returns>Hash code</returns>
+        </member>
+        <member name="T:WebApplicationLivraria.Models.Livro">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Livro.ISBN">
+            <summary>
+            Gets or Sets ISBN
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Livro.Nome">
+            <summary>
+            Gets or Sets Nome
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Livro.Preco">
+            <summary>
+            Gets or Sets Preco
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Livro.Autor">
+            <summary>
+            Gets or Sets Autor
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Livro.Editora">
+            <summary>
+            Gets or Sets Editora
+            </summary>
+        </member>
+        <member name="P:WebApplicationLivraria.Models.Livro.Categora">
+            <summary>
+            Gets or Sets Categora
+            </summary>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Livro.ToString">
+            <summary>
+            Returns the string presentation of the object
+            </summary>
+            <returns>String presentation of the object</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Livro.ToJson">
+            <summary>
+            Returns the JSON string presentation of the object
+            </summary>
+            <returns>JSON string presentation of the object</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Livro.Equals(System.Object)">
+            <summary>
+            Returns true if objects are equal
+            </summary>
+            <param name="obj">Object to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Livro.Equals(WebApplicationLivraria.Models.Livro)">
+            <summary>
+            Returns true if Livro instances are equal
+            </summary>
+            <param name="other">Instance of Livro to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:WebApplicationLivraria.Models.Livro.GetHashCode">
+            <summary>
+            Gets the hash code
+            </summary>
+            <returns>Hash code</returns>
+        </member>
+    </members>
+</doc>

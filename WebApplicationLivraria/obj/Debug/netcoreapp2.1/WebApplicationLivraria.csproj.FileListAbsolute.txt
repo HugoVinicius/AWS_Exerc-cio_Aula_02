@@ -1,0 +1,30 @@
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.deps.json
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.runtimeconfig.json
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.runtimeconfig.dev.json
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.dll
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.pdb
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.csprojAssemblyReference.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.csproj.CoreCompileInputs.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.RazorAssemblyInfo.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.RazorAssemblyInfo.cs
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.AssemblyInfoInputs.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.AssemblyInfo.cs
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.RazorTargetAssemblyInfo.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.dll
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.pdb
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\aula02\WebApplicationLivraria\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.xml
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.deps.json
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.runtimeconfig.json
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.runtimeconfig.dev.json
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.dll
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.pdb
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\bin\Debug\netcoreapp2.1\WebApplicationLivraria.xml
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.csprojAssemblyReference.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.csproj.CoreCompileInputs.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.RazorAssemblyInfo.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.RazorAssemblyInfo.cs
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.AssemblyInfoInputs.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.AssemblyInfo.cs
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.RazorTargetAssemblyInfo.cache
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.dll
+D:\Pessoal\Pós-gradução\Materias\AWS\exercicio\Exercicio Aula 02\EstudoDirigido02\WebApplicationLivraria\obj\Debug\netcoreapp2.1\WebApplicationLivraria.pdb
